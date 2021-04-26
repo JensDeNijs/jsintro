@@ -11,7 +11,7 @@
 
 (function() {
 
-    let getName = prompt("What's your name ? ", "type here");
+    let getName = prompt("What's your name ? " );
     alert("Hello, " + getName);
 
 })();

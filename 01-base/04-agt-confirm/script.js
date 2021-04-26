@@ -11,6 +11,19 @@
 
 (function() {
 
-    // your code here
+    let age;
+    let gender;
+    let town;
+    let agreed=false;
+
+    while(agreed == false){
+        age = prompt("What is your age? ");
+        gender = prompt("What is your gender? ");
+        town = prompt("What is your town? ");
+        if(confirm("are you " +age +", are you a "+gender+" who lives in "+town+"?")){
+            agreed= true
+        };
+
+    }
 
 })();

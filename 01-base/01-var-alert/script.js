@@ -11,7 +11,7 @@
 
 (function() {
 
-    let hello = "Hello World!"
+    const hello = "Hello World!";
     alert(hello);
 
 })();
