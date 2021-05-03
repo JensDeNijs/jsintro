@@ -10,7 +10,12 @@
 // You will have time to focus on it later.
 
 (function() {
+let value, length;
+    document.getElementById("pass-one").addEventListener("keydown", function () {
 
-    // your code here
+        value = document.getElementById("pass-one").value
+        //length = value.length
+        console.log(value.length);
+    });
 
 })();
