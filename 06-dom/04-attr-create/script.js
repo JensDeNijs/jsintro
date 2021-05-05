@@ -26,8 +26,6 @@
     let source = document.getElementById("source");
     let img = document.createElement('img');
 
-
-
     img.src = source.getAttribute('data-image');
 
     source.parentNode.removeChild(source);

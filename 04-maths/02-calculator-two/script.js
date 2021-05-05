@@ -72,6 +72,10 @@
                 break;
 
     }}
+        if (operation ="addition"){
+            alert(+a+ +b)
+
+        }
 
 
 

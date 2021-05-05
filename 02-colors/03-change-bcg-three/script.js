@@ -1,4 +1,4 @@
-/* becode/javascript
+ /* becode/javascript
  *
  * /03-colors/03-change-bcg-three/script.js - 3.3: couleur de fond (3)
  *

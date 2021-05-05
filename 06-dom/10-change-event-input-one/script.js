@@ -9,13 +9,17 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(function() {
-let value, length;
-    document.getElementById("pass-one").addEventListener("keydown", function () {
+(function () {
+    let value;
+    let span = document.getElementById("counter");
+    let passOne = document.getElementById("pass-one");
+
+    passOne.setAttribute('maxlength', '10');
+
+    passOne.addEventListener("keyup", function (e) {
 
         value = document.getElementById("pass-one").value
-        //length = value.length
-        console.log(value.length);
+        span.innerHTML = (value.length + "/10");
     });
 
 })();
